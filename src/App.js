@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Tours from "./comps/Tours";
 import data from "./comps/data";
 import Cards from "./comps/Card";
+import "./App.css";
 
 function App() {
   const [tours, setTours] = useState(data);
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="wrapper">
       <div>
-        <div>Plan with Anuj</div>
+        <div className="header">Barbaadi.com</div>
       </div>
       <Tours tours={tours} removeTour={removeINT}></Tours>
     </div>

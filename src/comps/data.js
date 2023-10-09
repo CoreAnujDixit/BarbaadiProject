@@ -1,59 +1,62 @@
+import "./data.css";
+
 const data = [
   {
     id: 1,
-    name: "Agra",
-    info:
-      "Agra is a city in northern India, known for the iconic Taj Mahal, a stunning white marble mausoleum built by Mughal emperor Shah Jahan in memory of his beloved wife. Agra is also home to several other historic and architectural wonders, including Agra Fort and Fatehpur Sikri.",
-    image: "https://cdn.thecodehelp.in/Agra.jpeg",
-    price: "35,758"
+    name: "John",
+    info: "John is a 28-year-old software engineer from Agra, India. He enjoys outdoor activities like hiking and traveling. He is looking for a life partner who shares his love for adventure and is family-oriented.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144551/6-25yrs-boys.jpg",
+    age: 28,
   },
   {
     id: 2,
-    name: "Jaipur",
-    info: `Jaipur is the capital city of the Indian state of Rajasthan, known for its stunning pink-hued buildings and palaces. The city is also known as the "Pink City" due to the color of many of its buildings. Jaipur is famous for its intricate textiles, colorful handicrafts, and delicious cuisine.`,
-    image: "https://cdn.thecodehelp.in/Jaipur.jpeg",
-    price: "82,560"
+    name: "Michael",
+    info: "Michael is a 30-year-old businessman from Jaipur, Rajasthan. He is known for his successful textile business and is looking for a compatible partner who values his entrepreneurial spirit.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144931/26f6c76e2de3b80c38d6545d09f2b9c5.jpg",
+    age: 30,
   },
   {
     id: 3,
-    name: "Goa",
-    info:
-      " Goa is a small state on India's western coast, known for its stunning beaches, vibrant nightlife, and Portuguese-influenced architecture. The state is also known for its spicy seafood dishes and unique cultural traditions.",
-    image: "https://cdn.thecodehelp.in/Goa.jpeg",
-    price: "29,695"
+    name: "David",
+    info: "David is a 25-year-old architect from Goa, India. He enjoys spending his free time at the beach and is looking for a caring and adventurous partner to share his life with.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144817/1693777637429.jfif",
+    age: 25,
   },
   {
     id: 4,
-    name: "Varanasi",
-    info:
-      "Varanasi is a holy city in northern India, situated on the banks of the sacred river Ganges. The city is a major pilgrimage site for Hindus and is famous for its ancient temples, winding alleyways, and colorful festivals.",
-    image: "https://cdn.thecodehelp.in/Varanasi.jpeg",
-    price: "31,095"
+    name: "Matthew",
+    info: "Matthew is a 29-year-old priest from Varanasi, India. He is deeply spiritual and is seeking a life partner who shares his faith and values the rich cultural heritage of Varanasi.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144543/istockphoto-522512567-612x612.jpg",
+    age: 29,
   },
   {
     id: 5,
-    name: "Darjeeling",
-    info:
-      "Starting in the colorful port city of Gdańsk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of Toruń, Poland's contemporary capital of Warsaw, the spiritual Jasna Góra Monastery, and charming Kraków — Poland's finest city. In this land of surprises — so trendy and hip, yet steeped in history — there's so much to discover. Join us for the Best of Poland in 10 Days!",
-    image: "https://cdn.thecodehelp.in/Darjeeling.jpeg",
-    price: "78,595"
+    name: "Christopher",
+    info: "Christopher is a 27-year-old travel enthusiast from Darjeeling, India. He loves exploring new places and is looking for a travel companion who can join him on exciting adventures.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144540/istockphoto-1131120711-612x612.jpg",
+    age: 27,
   },
   {
     id: 6,
-    name: "Jaisalmer",
-    info:
-      "Jaisalmer is a city in the Indian state of Rajasthan, known for its stunning sandstone architecture and its location in the heart of the Thar Desert. The city is home to several impressive palaces and fortresses, as well as unique cultural traditions and handicrafts.",
-    image: "https://cdn.thecodehelp.in/Jaisalmer.jpeg",
-    price: "68,595"
+    name: "Daniel",
+    info: "Daniel is a 31-year-old artist from Jaisalmer, Rajasthan. He is passionate about traditional art and culture and hopes to find a partner who appreciates his creativity.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779144970/photo-1599475735868-a8924c458792.jfif",
+    age: 31,
   },
   {
     id: 7,
-    name: "Kochi",
-    info:
-      "Kochi is a port city in the Indian state of Kerala, known for its historic connections to trade and commerce. The city is home to several stunning churches, synagogues, and mosques, as well as a rich culinary tradition that blends Indian, Portuguese, and other influences.",
-    image: "https://cdn.thecodehelp.in/Kochi.jpeg",
-    price: "68,595"
-  }
+    name: "Joseph",
+    info: "Joseph is a 26-year-old chef from Kochi, Kerala. He is a culinary expert with a blend of Indian, Portuguese, and other culinary influences. He is looking for someone who shares his love for food and culture.",
+    image:
+      "https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1696779398155/istockphoto-1337239988-612x612.jpg",
+    age: 26,
+  },
 ];
 
 export default data;

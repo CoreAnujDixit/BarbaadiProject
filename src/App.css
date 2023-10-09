@@ -1,0 +1,29 @@
+span {
+  color: #ff6969;
+  cursor: pointer;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px 0;
+  border: 5px dotted crimson;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.refresh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
